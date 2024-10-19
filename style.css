@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 35%;
+    background-color: #1e3b5a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #66b2ff;
+    text-decoration: none;
+}
+
+.contact-info .contact-details p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-section {
+    width: 65%;
+    padding: 20px;
+}
+
+.form-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group input, 
+.form-group select,
+textarea {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%; /* Full width for textarea */
+    resize: vertical; /* Allow user to resize the textarea vertically */
+}
+
+textarea:hover,
+.form-group input:hover, 
+.form-group select:hover {
+    transform: scale(1.05); /* Zoom effect */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e3b5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05); /* Zoom effect for button */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+.h1{
+    text-align: center;
+    color: #6d6c6c;
+    font-size: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 35%;
+    background-color: #1e3b5a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #66b2ff;
+    text-decoration: none;
+}
+
+.contact-info .contact-details p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form-section {
+    width: 65%;
+    padding: 20px;
+}
+
+.form-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+textarea {
+    width: 100%; /* Full width for textarea */
+    resize: vertical; /* Allow user to resize the textarea vertically */
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #1e3b5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05); /* Zoom effect for button */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    width: 35%;
+    background-color: #1e3b5a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #66b2ff;
+    text-decoration: none;
+}
+
+.contact-info .contact-details p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for zoom */
+}
+
+.social-media a:hover {
+    transform: scale(1.1); /* Zoom in by 10% */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.form-section {
+    width: 65%;
+    padding: 20px;
+}
+
+.form-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #1e3b5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for zoom */
+}
+
+button:hover {
+    transform: scale(1.05); /* Zoom in by 5% */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
